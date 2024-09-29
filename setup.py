@@ -9,7 +9,7 @@ setup(
     author = "Qunlun Shen",
     author_email = "knotnet@foxmail.com",
     license = "MIT",
-    package_dir={'': 'CAMUS'},
+    packages = ['CAMUS'],
     install_requires = ["requests",],
     zip_safe = False,
     include_package_data = True,
