@@ -3,7 +3,7 @@
 ## Overview
 CAMUS (<u>c</u>ross-datasets <u>a</u>nnotation <u>m</u>odeling with <u>u</u>niversal reference data and method <u>s</u>election) is a method that designed for accurately and efficiently selecting references and methods for universal single-cell annotation. It can help users select the best reference-method pairs for reference-based annotation tasks, and estimate the annotation accuracy. Extensive tests on diverse scenarios (e.g., cross-species, cross-modalities, and cross-omics) served as benchmarks to demonstrate superiorities of CAMUS for reference and method selection.
 
-We collected 672 (reference and query ) paired cross-species scRNA-seq datasets from seven species and five tissues, served as a benchmark for cross-species annotation. We also provide the homologous relationships between genes from different species as the input for CAME.  (can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1DpZKJUw-fI34WBVpDOQOSZWP-gRrDPeD)).
+We collected 672 (reference and query ) paired cross-species scRNA-seq datasets from seven species and five tissues, served as a benchmark for cross-species annotation. We also provide the homologous relationships between genes from different species as the input for CAME (can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1DpZKJUw-fI34WBVpDOQOSZWP-gRrDPeD)).
 
 We  collected 80 scST (single-cell spatial transcriptomics) datasets and paired scRNA-seq datasets from seven technologies and five tissues, served as a benchmark for cross-modalities annotation (can be downloaded from [here](https://drive.google.com/drive/folders/1xP3Fh94AwKu4OsH3khGq-KEw0VCoiRnL?dmr=1&ec=wgc-drive-globalnav-goto)).
 
