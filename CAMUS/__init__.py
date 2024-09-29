@@ -1,5 +1,5 @@
-import CAMUS.CAMUS
-import CAMUS.preprocess
+import CAMUS
+import preprocess
 
 __version__ = '1.0.0'
 __author__ = "Qunlun Shen"
