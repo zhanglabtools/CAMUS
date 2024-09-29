@@ -11,7 +11,7 @@ from scipy.stats import entropy
 import numpy as np
 import pandas as pd
 import scanpy as sc
-from preprocess import precluster_scRNA_scST, precluster_scATAC
+from .preprocess import precluster_scRNA_scST, precluster_scATAC
 
 def CAMUS_score(annotations, pre_clusters):
 	'''
