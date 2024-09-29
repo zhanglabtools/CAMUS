@@ -1,0 +1,3 @@
+"scanpy[leiden]"
+sklearn>=1.3.0,<=1.3.0
+autogluon==1.1.0
