@@ -25,8 +25,11 @@ conda activate CAMUS
 * the important Python packages used to run the model are as follows: 
 ```
 sklearn==1.3.0
-scanpy>=1.9.1,<=1.9.6 (pip install scanpy[leiden]==1.9.1),
-autogluon==1.1.0 (pip install autogluon --user)
+scanpy>=1.9.1,<=1.9.6
+(pip install scanpy[leiden]==1.9.1),
+autogluon==1.1.0
+CPU version: pip install autogluon --extra-index-url https://download.pytorch.org/whl/cpu
+GPU version: pip install autogluon --user
 ```
 
 For scATAC-seq query data, the snapATAC2 python packages is also needed:
