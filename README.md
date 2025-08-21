@@ -37,7 +37,7 @@ snapatac2==2.6.4
 
 ## Installation
 
-You can install CAMUS via:
+CAMUS is know uploaded as a Pypi package. You can install CAMUS via:
 ```
 pip install scCAMUS==1.0.1
 ```
