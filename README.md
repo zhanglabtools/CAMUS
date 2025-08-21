@@ -26,7 +26,7 @@ conda activate CAMUS
 ```
 sklearn==1.3.0
 scanpy>=1.9.1,<=1.9.6
-(pip install scanpy[leiden]==1.9.1),
+pip install scanpy[leiden],
 autogluon==1.1.0
 CPU version: pip install autogluon --extra-index-url https://download.pytorch.org/whl/cpu
 GPU version: pip install autogluon --user
