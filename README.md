@@ -24,9 +24,9 @@ conda activate CAMUS
 
 * the important Python packages used to run the model are as follows: 
 ```
-scanpy>=1.9.1,<=1.9.6
-sklearn>=1.3.0,<=1.3.0
-autogluon==1.1.0
+sklearn==1.3.0
+scanpy>=1.9.1,<=1.9.6 (pip install scanpy[leiden]==1.9.1),
+autogluon==1.1.0 (pip install autogluon --user)
 ```
 
 For scATAC-seq query data, the snapATAC2 python packages is also needed:
@@ -39,10 +39,7 @@ snapatac2==2.6.4
 
 You can install CAMUS via:
 ```
-git clone https://github.com/zhanglabtools/CAMUS.git
-cd CAMUS
-python setup.py build
-python setup.py install
+pip install scCAMUS==1.0.1
 ```
 
 ## Tutorials
